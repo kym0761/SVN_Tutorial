@@ -18,8 +18,9 @@
 
 ~~~~
 
-Visual SVN Server로 만든 Repository는 로컬에서 TortoiseSVN으로 새 Repository를 만드는 행위는 하지 말아야한다.
+Visual SVN Server로 만든 Repository는 로컬에서 TortoiseSVN으로 해당 Repository를 새 Repository를 만드는 행위는 하지 말아야한다.
 db 폴더에 데이터를 저장하는데, TortoiseSVN으로 Repository를 생성하면서 .svn 파일이 생성되고, db 폴더를 Add하게 되면, 계속 중복 저장하여 프로젝트 크기가 미치도록 커진다.
+Server는 Server일 뿐이라 생각하고 그 이후에 건들지 말자
 
 나중에 관리하기 쉽도록 큰 에셋들을 한번에 다 Add하지 말고 적당한 양으로 분할해서 Add하자.
 
