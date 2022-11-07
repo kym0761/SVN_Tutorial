@@ -38,7 +38,7 @@
 
 ~~~~
 2. 빈 폴더를 만들고, 빈 폴더에서 위에 Visual SVN Server로 만든 Repository URL을 입력하여 SVN Checkout을 한다.
-3. Tortoise SVN의 Commit 기능으로 Saved, Intermediate, DerivedDataCache 등을 Ignore 처리한다.
+3. Tortoise SVN의 Commit 기능으로 SVN에 Commit될 필요가 없는 폴더 및 파일을 (언리얼 엔진을 예시로 들자면 Saved, Intermediate, DerivedDataCache 등) Ignore 처리한다.
 4. 필요한 데이터들은 Add한다.
 ~~~~
 
